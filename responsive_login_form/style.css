@@ -1,0 +1,53 @@
+body{
+    margin:0;
+    padding:0; 
+}
+#span{
+    font-size:30px;
+    font-weight:bold;
+}
+header{
+    background-color:black;
+    width:100%;
+    color:white;
+}
+#body{
+ background:url("prakash.jpg");
+    background-size: auto;
+    background-repeat: no-repeat;
+    float: none;
+    
+}
+.form{
+    margin-top:50px;
+}
+.input{
+    opacity:0.5;
+    height:30px;
+    width:200px;
+    border-radius:50px;
+    border:1px solid white;
+    font-size:20px;
+    font-weight:bold;
+}
+.label{
+    color:yellow;
+    font-weight:bold;
+    font-size:20px;
+}
+.submit{
+    font-weight:bold;
+    border-radius:50px;
+    height:50px;
+    width:100px;
+}
+.error{
+    background-color:red;
+    font-weight:bold;
+    border-radius:5px;
+}
+.error{
+    background-color:#ff6459;
+    font-weight:bold;
+    border-radius:5px;
+}

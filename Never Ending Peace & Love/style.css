@@ -1,0 +1,126 @@
+.nepal-flag{
+	position: relative;
+}
+.outer{
+	position: relative;
+}
+.inner {
+  left: 15px;
+  position: absolute;
+  top: 2px;
+}
+.triangle1 {
+  border-left: 372px solid #0a4097;
+  border-top: 265px solid transparent;
+  content: "";
+  height: 0;
+  width: 0;
+}
+.triangle2 {
+  border-left: 573px solid #0a4097;
+  border-top: 351px solid transparent;
+  content: "";
+  height: 0;
+  left: 0;
+  position: absolute;
+  top: 157px;
+  width: 0;
+}
+.triangle3 {
+  border-left: 314px solid #DC143C;
+  border-top: 222px solid transparent;
+  content: "";
+  height: 0;
+  position: absolute;
+  top: 29px;
+  width: 0;
+}
+.triangle4 {
+  border-left: 509px solid #DC143C;
+  border-top: 312px solid transparent;
+  content: "";
+  height: 0;
+  left: 0;
+  position: absolute;
+  top: 180px;
+  width: 0;
+}
+
+#sun::before {
+    transform: rotate(30deg);
+}
+#sun::before, #sun::after {
+    background: #fff none repeat scroll 0 0;
+    content: "";
+    height: 70px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 70px;
+}
+#sun::after {
+    transform: rotate(60deg);
+}
+#sun::before, #sun::after {
+    background: #fff none repeat scroll 0 0;
+    content: "";
+    height: 70px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 70px;
+}
+#sun {
+    background: #fff none repeat scroll 0 0;
+    bottom: 70px;
+    height: 70px;
+    position: absolute;
+    right: 390px;
+    text-align: center;
+    width: 70px;
+}
+
+
+#moon {
+  border-radius: 50%;
+  bottom: 55px;
+  box-shadow: 0 15px 0 0 #fff;
+  height: 78px;
+  position: absolute;
+  right: 195px;
+  width: 90px;
+}
+
+#moon2::before {
+    transform: rotate(30deg);
+}
+#moon2::before, #moon2::after {
+    background: #fff none repeat scroll 0 0;
+    content: "";
+    height: 30px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 30px;
+}
+#moon2::after {
+    transform: rotate(60deg);
+}
+#moon2::before, #moon2::after {
+    background: #fff none repeat scroll 0 0;
+    content: "";
+    height: 30px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 30px;
+}
+#moon2 {
+  background: #fff none repeat scroll 0 0;
+  bottom: 49px;
+  height: 30px;
+  position: absolute;
+  right: 224px;
+  text-align: center;
+  width: 30px;
+}
