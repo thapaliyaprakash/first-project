@@ -1,0 +1,79 @@
+/* Global reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: black;
+  color: white;
+  font-family: 'Courier New', monospace;
+  overflow: hidden;
+}
+
+/* Canvas styling */
+canvas {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+
+/* Floating control panel */
+.ui-panel {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background: rgba(10, 10, 10, 0.85);
+  padding: 15px 20px;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px #0ff;
+  z-index: 10;
+}
+
+.ui-panel h1 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #0ff;
+  text-shadow: 0 0 5px #0ff;
+}
+
+.control {
+  margin-bottom: 12px;
+}
+
+.control label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+select, button {
+  padding: 6px 12px;
+  font-size: 14px;
+  border: none;
+  border-radius: 6px;
+  background: #111;
+  color: #0ff;
+  outline: none;
+  box-shadow: 0 0 10px #0ff3;
+  transition: 0.2s;
+}
+
+select:hover, button:hover {
+  background: #222;
+  box-shadow: 0 0 15px #0ff;
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+/* Mobile-friendly */
+@media (max-width: 600px) {
+  .ui-panel {
+    width: calc(100% - 40px);
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Interactive Plasma Globe</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="ui-panel">
+    <h1>⚡ Plasma Globe</h1>
+    
+    <div class="control">
+      <label for="modeSwitch">Color Mode</label>
+      <select id="modeSwitch">
+        <option value="rainbow">🌈 Rainbow</option>
+        <option value="blue">🔵 Electric Blue</option>
+        <option value="red">🔴 Evil Red</option>
+        <option value="green">🟢 Toxic Green</option>
+      </select>
+    </div>
+
+    <div class="control">
+      <label for="powerToggle">Power</label>
+      <button id="powerToggle">⏻ ON</button>
+    </div>
+  </div>
+
+  <canvas id="plasmaCanvas"></canvas>
+
+  <audio id="zapSound" src="https://cdn.pixabay.com/download/audio/2022/03/28/audio_327d7fb39a.mp3?filename=zapping-electric-143235.mp3"></audio>
+  <audio id="idleHum" src="https://cdn.pixabay.com/download/audio/2023/05/11/audio_4dcd5e7fcb.mp3?filename=ambient-machine-loop-145150.mp3" loop></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
